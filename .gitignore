@@ -1,3 +1,10 @@
+.DS_store
+
+*.esproj
+*.espressostorage
+
+*.psd
+
 # Logs
 logs
 *.log
