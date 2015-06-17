@@ -1,0 +1,39 @@
+.site-header {
+	display: block;
+	margin-bottom: $gutter;
+	padding-top: $gutter;
+	padding-bottom: $gutter;
+	@include row();
+}
+
+.site-logo-link {
+	@include span-columns(5 of 12);
+}
+
+.site-logo {
+	max-height: 3rem;
+}
+
+.site-nav {
+	float: right;
+	@include span-columns(6 of 12);
+	@include shift(1 of 12);
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.125rem;
+	text-align: right;
+	a {
+//		text-align: right;
+//		@include span-columns(2 of 6);
+		display: inline-block;
+		padding: 0.5rem 1rem;
+//		text-align: center;
+//		padding: 0.5rem;
+//		border-radius: 0.25rem;
+//		border: 1px solid $blue;
+//		&:hover {
+//			border-color: $white;
+//		}
+	}
+
+}

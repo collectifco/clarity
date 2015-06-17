@@ -1,0 +1,31 @@
+.content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	max-width: 87.5rem;
+	max-width: 75rem;
+	max-width: 65rem;
+}
+
+.bars-bar {
+	padding: $spacer 0;
+	svg {
+		margin: auto;
+		display: block;
+	}
+}
+
+.team {
+	margin-top: $gutter;
+	padding-top: $gutter;
+	@include row();
+}
+
+.team-partner {
+	background-color:  shade($blue, 50%);
+	padding: 1.5rem 1.5rem $gutter;
+	margin-bottom: $gutter;
+	@media (min-width: 600px) {
+		@include span-columns(6 of 12);
+	}
+}

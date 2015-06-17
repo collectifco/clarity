@@ -1,0 +1,256 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  position: relative;
+  font-family: inherit;
+  font-size: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+ul, ol {
+  padding-left: 1.4rem;
+  overflow: hidden; }
+
+picture {
+  display: block; }
+
+li ol, li ul {
+  margin-bottom: 0; }
+
+body {
+  font-size: 1.25rem;
+  font-size: 1.375rem;
+  font-family: Karla, 'Museo Sans', museo-sans, helvetica;
+  line-height: 1.75rem;
+  line-height: 2rem;
+  font-weight: 300; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  border: none; }
+
+h1 {
+  font-size: 3.125rem;
+  line-height: 3.5rem;
+  margin-bottom: 1.75rem; }
+
+h2 {
+  font-size: 2.75rem;
+  line-height: 1.75rem;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem; }
+
+h4 {
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+::selection {
+  background: #00C5E0;
+  color: #fff; }
+
+.team-partner-bio {
+  font-size: 1.125rem; }
+
+.tagline {
+  font-size: 2.75rem;
+  line-height: 3.5rem; }
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 87.5rem;
+  max-width: 75rem;
+  max-width: 65rem; }
+
+.bars-bar {
+  padding: calc( 2rem * 2) 0; }
+  .bars-bar svg {
+    margin: auto;
+    display: block; }
+
+.team {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  display: block; }
+  .team::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.team-partner {
+  background-color: #006270;
+  padding: 1.5rem 1.5rem 2rem;
+  margin-bottom: 2rem; }
+  @media (min-width: 600px) {
+    .team-partner {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .team-partner:last-child {
+        margin-right: 0; } }
+
+body {
+  background: #00C5E0;
+  color: #fff;
+  background-size: cover; }
+
+.button.option {
+  border: 1px solid #fff;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  display: block;
+  background: #fff; }
+
+section {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  border-top: 1rem solid #fff;
+  border-right: 1rem solid #fff;
+  border-left: 1rem solid #fff; }
+
+section.hero {
+  border: none; }
+
+.rotate {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  animation: rotateWords 12s linear infinite 0s;
+  -webkit-animation: rotateWords 12s linear infinite 0s; }
+
+.rotate:nth-of-type(2) {
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s; }
+
+.rotate:nth-of-type(3) {
+  animation-delay: 6s;
+  -webkit-animation-delay: 6s; }
+
+.rotate:nth-of-type(4) {
+  animation-delay: 9s;
+  -webkit-animation-delay: 9s; }
+
+@keyframes rotateWords {
+  0% {
+    opacity: 1;
+    animation-timing-function: ease-in;
+    height: 0px; }
+
+  8% {
+    opacity: 1;
+    height: 60px; }
+
+  19% {
+    opacity: 1;
+    height: 60px; }
+
+  25% {
+    opacity: 0;
+    height: 60px; }
+
+  100% {
+    opacity: 0; } }
+
+@-webkit-keyframes rotateWords {
+  0% {
+    opacity: 1;
+    animation-timing-function: ease-in; }
+
+  8% {
+    opacity: 1; }
+
+  19% {
+    opacity: 1; }
+
+  25% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+
+.site-header {
+  display: block;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: block; }
+  .site-header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.site-logo-link {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%; }
+  .site-logo-link:last-child {
+    margin-right: 0; }
+
+.site-logo {
+  max-height: 3rem; }
+
+.site-nav {
+  float: right;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 8.5298%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  text-align: right; }
+  .site-nav:last-child {
+    margin-right: 0; }
+  .site-nav a {
+    display: inline-block;
+    padding: 0.5rem 1rem; }
+
+.site-footer {
+  background-color: #343534;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-top: calc( 2rem * 2);
+  padding-bottom: calc( 2rem * 2); }
+  .site-footer a {
+    color: #00C5E0; }
+
+form {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  margin-top: 2rem; }
+
+input {
+  border-radius: 0.25rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.125rem;
+  color: #979797;
+  margin-bottom: 1rem;
+  border: 1px solid #fff;
+  outline: none; }
+  input:focus {
+    background: #bff0f7; }
+
+.contact-form {
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto; }

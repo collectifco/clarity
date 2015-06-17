@@ -1,0 +1,16 @@
+# Site settings
+name: Clarity Productions
+title: Clarity Audio Productions
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: ""
+url: "http://clarityproductions.ca"
+
+logo: /assets/img/logo.svg
+email: clarityaudioproductions@gmail.com
+facebook: https://www.facebook.com/clarityaudioproductions/
+tel-dustion: "204-312-0112"
+tel-nat: "204-362-7015"
+
+# Build settings
+markdown: kramdown
+permalinks: pretty

@@ -1,0 +1,45 @@
+//
+// Partial: reset
+// ==============
+//
+// Based on Dan Eden's Reset
+// https://github.com/daneden/daneden.me/blob/master/_assets/scss/partials/_reset.scss
+//
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  position: relative;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul, ol {
+  padding-left: 1.4rem;
+  overflow: hidden;
+}
+
+// header, main, footer,
+// p, table, figure, blockquote, pre, ul, ol,
+// h1, .alpha,
+// h2, .beta {
+//  margin-bottom: $baseline;
+// }
+
+picture {
+  display: block;
+}
+
+li ol, li ul {
+  margin-bottom: 0;
+}
