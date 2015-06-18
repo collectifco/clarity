@@ -23,6 +23,8 @@ section {
 
 section.hero {
 	border: none;
+	background: url('/assets/img/concert1.jpg');
+	background-size: cover;
 }
 
 .rotate {
@@ -60,4 +62,9 @@ section.hero {
     19% { opacity: 1; }
 	25% { opacity: 0;  }
     100% { opacity: 0; }
+}
+
+#about {
+	background: #eee;
+	color: shade($blue, 25%);
 }
