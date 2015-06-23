@@ -16,9 +16,6 @@ body {
 section {
 	padding-top: 10rem;
 	padding-bottom: 10rem;
-	border-top: 1rem solid #fff;
-	border-right: 1rem solid #fff;
-	border-left: 1rem solid #fff;
 }
 
 section.hero {
@@ -67,4 +64,8 @@ section.hero {
 #about {
 	background: #eee;
 	color: shade($blue, 25%);
+//	border-top: 1rem solid #fff;
+//	border-right: 1rem solid #fff;
+//	border-left: 1rem solid #fff;
+//	border-bottom: 1rem solid #fff;
 }

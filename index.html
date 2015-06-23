@@ -3,17 +3,19 @@ layout: default
 ---
 
 <div class="home">
-	<section class="content hero" style="min-height: calc(100vh);">
-		<span class="tagline">
-			Sound solutions for your
-			<span class="rotate">&nbsp;Concert</span> 
-			<span class="rotate">&nbsp;Recording</span>
-			<span class="rotate">&nbsp;Festival</span>
-			<span class="rotate">&nbsp;Event</span>
-		</span>
+	<section class="hero" style="min-height: calc(100vh);">
+		<div class="content">
+			<span class="tagline">
+				Sound solutions for your
+				<span class="rotate">&nbsp;Concert</span> 
+				<span class="rotate">&nbsp;Recording</span>
+				<span class="rotate">&nbsp;Festival</span>
+				<span class="rotate">&nbsp;Event</span>
+			</span>
+		</div>
 	</section>
 	
-  {% for page in site.pages %}
+  <!--{% for page in site.pages %}
   	{% if page.title %}
 	  	<section id="{{ page.title | downcase }}" style="background-image: url('/assets/img/{{page.title}}-bg.jpg'); background-size: cover;">
 	  		<div  class="content">
@@ -23,6 +25,45 @@ layout: default
 	  			</div>	
 	  		</div>
 	  	</section>
+  	{% endif %}
+  {% endfor %}-->
+  
+  {% for page in site.pages %}
+  	{% if page.title == "About" %}
+	    	<section id="{{ page.title | downcase }}" style="background-image: url('/assets/img/{{page.title}}-bg.jpg'); background-size: cover;">
+	    		<div  class="content">
+	    			<h2>{{ page.title }}</h2>
+	    			<div>
+	    				{{page.content}}
+	    			</div>	
+	    		</div>
+	    	</section>
+  	{% endif %}
+  {% endfor %}
+  
+  {% for page in site.pages %}
+  	{% if page.title == "Services" %}
+      	<section id="{{ page.title | downcase }}" style="background-image: url('/assets/img/{{page.title}}-bg.jpg'); background-size: cover;">
+      		<div  class="content">
+      			<h2>{{ page.title }}</h2>
+      			<div>
+      				{{page.content}}
+      			</div>	
+      		</div>
+      	</section>
+  	{% endif %}
+  {% endfor %}
+  
+  {% for page in site.pages %}
+  	{% if page.title == "Contact" %}
+      	<section id="{{ page.title | downcase }}" style="background-image: url('/assets/img/{{page.title}}-bg.jpg'); background-size: cover;">
+      		<div  class="content">
+      			<h2>{{ page.title }}</h2>
+      			<div>
+      				{{page.content}}
+      			</div>	
+      		</div>
+      	</section>
   	{% endif %}
   {% endfor %}
   

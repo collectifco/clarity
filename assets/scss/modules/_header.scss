@@ -1,9 +1,19 @@
 .site-header {
 	display: block;
-	margin-bottom: $gutter;
+//	margin-bottom: $gutter;
 	padding-top: $gutter;
 	padding-bottom: $gutter;
 	@include row();
+//	position: fixed;
+	position: absolute;
+	margin-top: 0;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+}
+
+.site-header .content {
+	position: relative;
 }
 
 .site-logo-link {
@@ -37,3 +47,7 @@
 	}
 
 }
+
+//.home {
+//	margin-top: 6rem;
+//}

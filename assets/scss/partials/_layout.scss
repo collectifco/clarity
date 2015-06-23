@@ -30,3 +30,7 @@
 		@include span-columns(6 of 12);
 	}
 }
+
+section:nth-of-type(2) {
+	z-index: 200;
+}
