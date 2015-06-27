@@ -5,16 +5,16 @@ layout: default
 <div class="home">
 	<section class="hero" style="min-height: calc(100vh);">
 		<div class="content">
-			<span class="tagline">
+			<span class="tagline wow fadeInDown">
 				Sound engineering for your
-				<span class="rotate">&nbsp;concert.</span> 
+				<span class="rotate">&nbsp;concert.</span>
 				<span class="rotate">&nbsp;recording.</span>
 				<span class="rotate">&nbsp;festival.</span>
 				<span class="rotate">&nbsp;event.</span>
 			</span>
 		</div>
 	</section>
-	
+
   <!--{% for page in site.pages %}
   	{% if page.title %}
 	  	<section id="{{ page.title | downcase }}" style="background-image: url('/assets/img/{{page.title}}-bg.jpg'); background-size: cover;">
@@ -22,49 +22,49 @@ layout: default
 	  			<h2>{{ page.title }}</h2>
 	  			<div>
 	  				{{page.content}}
-	  			</div>	
+	  			</div>
 	  		</div>
 	  	</section>
   	{% endif %}
   {% endfor %}-->
-  
+
   {% for page in site.pages %}
   	{% if page.title == "About" %}
 	    	<section id="{{ page.title | downcase }}" style="background-image: url('/assets/img/{{page.title}}-bg.jpg'); background-size: cover;">
-	    		<div  class="content">
-	    			<h2>{{ page.title }}</h2>
+	    		<div class="content">
+	    			<h2 class="wow fadeInDown">{{ page.title }}</h2>
 	    			<div>
 	    				{{page.content}}
-	    			</div>	
+	    			</div>
 	    		</div>
 	    	</section>
   	{% endif %}
   {% endfor %}
-  
+
   {% for page in site.pages %}
   	{% if page.title == "Services" %}
       	<section id="{{ page.title | downcase }}" style="background-image: url('/assets/img/{{page.title}}-bg.jpg'); background-size: cover;">
       		<div  class="content">
-      			<h2>{{ page.title }}</h2>
+      			<h2 class="wow fadeInDown">{{ page.title }}</h2>
       			<div>
       				{{page.content}}
-      			</div>	
+      			</div>
       		</div>
       	</section>
   	{% endif %}
   {% endfor %}
-  
+
   {% for page in site.pages %}
   	{% if page.title == "Contact" %}
       	<section id="{{ page.title | downcase }}" style="background-image: url('/assets/img/{{page.title}}-bg.jpg'); background-size: cover;">
       		<div  class="content">
-      			<h2>{{ page.title }}</h2>
+      			<h2 class="wow fadeInDown">{{ page.title }}</h2>
       			<div>
       				{{page.content}}
-      			</div>	
+      			</div>
       		</div>
       	</section>
   	{% endif %}
   {% endfor %}
-  
+
 </div>

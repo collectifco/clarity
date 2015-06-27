@@ -75,7 +75,17 @@ h4 {
   margin-top: 5rem;
   margin-top: 25vh;
   overflow: hidden;
-  display: block; }
+  display: block;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .tagline:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 700px)  {
+    .tagline {
+      font-size: 2rem;
+      line-height: 3rem; } }
 
 .content {
   margin-left: auto;
@@ -213,8 +223,7 @@ section.hero {
   margin-top: 0;
   top: 0;
   z-index: 100;
-  width: 100%;
-  text-align: left; }
+  width: 100%; }
   .site-header::after {
     clear: both;
     content: "";
@@ -233,9 +242,18 @@ section.hero {
   height: 3rem; }
   .site-logo-link:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 700px)  {
+    .site-logo-link {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      text-align: center; }
+      .site-logo-link:last-child {
+        margin-right: 0; } }
 
 .site-logo {
-  max-height: 3rem; }
+  height: 3rem; }
 
 .site-nav {
   float: right;
@@ -249,6 +267,15 @@ section.hero {
   text-align: right; }
   .site-nav:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 700px)  {
+    .site-nav {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      text-align: center; }
+      .site-nav:last-child {
+        margin-right: 0; } }
   .site-nav a {
     display: inline-block;
     padding: 0.5rem 1rem; }

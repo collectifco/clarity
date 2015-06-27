@@ -32,16 +32,16 @@ section.hero {
 	-webkit-animation: rotateWords 12s linear infinite 0s;
 }
 
-.rotate:nth-of-type(2) { 
+.rotate:nth-of-type(2) {
 	animation-delay: 3s;
-	-webkit-animation-delay: 3s; 
+	-webkit-animation-delay: 3s;
 }
-.rotate:nth-of-type(3) { 
+.rotate:nth-of-type(3) {
 	animation-delay: 6s;
-	-webkit-animation-delay: 6s; 
+	-webkit-animation-delay: 6s;
 }
-.rotate:nth-of-type(4) { 
-	animation-delay: 9s; 
+.rotate:nth-of-type(4) {
+	animation-delay: 9s;
 	-webkit-animation-delay: 9s;
 }
 
