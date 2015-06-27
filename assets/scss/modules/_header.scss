@@ -3,13 +3,14 @@
 //	margin-bottom: $gutter;
 	padding-top: $gutter;
 	padding-bottom: $gutter;
-	@include row();
+	@include outer-container();
 //	position: fixed;
 	position: absolute;
 	margin-top: 0;
 	top: 0;
 	z-index: 100;
 	width: 100%;
+  text-align: left;
 }
 
 .site-header .content {
@@ -17,7 +18,10 @@
 }
 
 .site-logo-link {
-	@include span-columns(5 of 12);
+	@include span-columns(6 of 12);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 3rem;
 }
 
 .site-logo {
@@ -27,7 +31,7 @@
 .site-nav {
 	float: right;
 	@include span-columns(6 of 12);
-	@include shift(1 of 12);
+	// @include shift(1 of 12);
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 	font-size: 1.125rem;

@@ -24,30 +24,16 @@
 		</g>
 	</g>
 	</svg>
-	
+
 </div>-->
 <footer class="site-footer">
 
   <div class="content">
-	
+
 	&copy;<script type="text/javascript">document.write(new Date().getFullYear());</script>, {{ site.name }}
-	 | 
+	 |
 	<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
   </div>
 
 </footer>
-
-<script>
-	var keywords = ["awesome", "cool", "fantastic", "incredible"];
-	var count = 1;
-	setInterval(function(){    
-	    $("span.keyword").fadeOut(400, function(){        
-	        $(this).html(keywords[count]);        
-	        count++;        
-	        if(count == keywords.length)            
-	            count = 0;        
-	        $(this).fadeIn(400);    
-	    });
-	}, 2000);
-</script>
