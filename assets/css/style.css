@@ -31,6 +31,7 @@ li ol, li ul {
 body {
   font-size: 1.25rem;
   font-size: 1.375rem;
+  font-size: 1.25rem;
   font-family: Europa, Karla, 'Museo Sans', museo-sans, helvetica;
   line-height: 1.75rem;
   line-height: 2rem;
@@ -115,6 +116,9 @@ h4 {
 
 section:nth-of-type(2) {
   z-index: 200; }
+
+section {
+  min-height: 100vh; }
 
 body {
   background: #00C5E0;
