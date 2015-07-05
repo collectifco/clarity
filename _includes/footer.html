@@ -2,12 +2,25 @@
 
   <div class="content">
 
-	&copy;<script type="text/javascript">document.write(new Date().getFullYear());</script>, {{ site.name }}
-	 | 
-	<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-	
-	<a href="{{ site.facebook }}"><img src="/assets/img/facebook.svg" alt="Facebook" title="Facebook"></a>
-
+		<div class="footer-section">
+			&copy;<script type="text/javascript">document.write(new Date().getFullYear());</script>, {{ site.name }}
+			<br>Winkler, Manitoba
+		</div>
+		<div class="footer-nav footer-section" role="navigation">
+			<a href="#about">About</a>
+			<a href="#services">Services</a>
+			<a href="#contact">Contact</a>
+		</div>
+		<div class="footer-section">
+			Dustin – 204.312.0112 
+			<br>Nat – 204.362.7015
+		</div>
+		<div class="footer-section">
+			<a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+			
+			<!--<a href="{{ site.facebook }}"><img src="/assets/img/facebook.svg" alt="Facebook" title="Facebook"></a>-->
+			<a href="{{ site.facebook }}">facebook.com/clarityaudioproductions</a>
+		</div>
   </div>
 
 </footer>

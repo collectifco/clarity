@@ -12,3 +12,25 @@
 		color: $blue;
 	}
 }
+
+.site-footer .content {
+	@include row();
+}
+
+@media (min-width: 600px) {
+	.footer-section {
+		@include span-columns(6 of 12);
+		@include omega(2);
+	}
+}
+
+@media (min-width: 900px) {
+	.footer-section {
+		@include span-columns(3 of 12);
+		@include omega(4);
+	}
+}
+
+.footer-nav a {
+	display: block;
+}
