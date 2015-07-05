@@ -14,3 +14,5 @@ tel-nat: "204-362-7015"
 # Build settings
 markdown: kramdown
 permalinks: pretty
+
+exclude: [node_modules, gulpfile.js, package.json, clarity.json, jekyll]

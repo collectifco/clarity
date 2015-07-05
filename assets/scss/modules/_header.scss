@@ -4,7 +4,7 @@
 	padding-top: $gutter;
 	padding-bottom: $gutter;
 	@include outer-container();
-//	position: fixed;
+	position: fixed;
 	position: absolute;
 	margin-top: 0;
 	top: 0;
@@ -54,6 +54,9 @@
 //		&:hover {
 //			border-color: $white;
 //		}
+		&:hover {
+			border-bottom: 1.5px solid $white;
+		}
 	}
 
 }
@@ -61,3 +64,10 @@
 //.home {
 //	margin-top: 6rem;
 //}
+
+
+.headroom--unpinned {
+	.site-logo-wordmark {
+		display: none;
+	}	
+}

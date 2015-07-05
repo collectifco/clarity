@@ -4,10 +4,10 @@
 //
 
 body {
+//	font-size: 1.25rem;
+//	font-size: 1.375rem;
 	font-size: 1.25rem;
-	font-size: 1.375rem;
-	font-size: 1.25rem;
-	font-family: Europa, Karla, 'Museo Sans', museo-sans, helvetica;
+	font-family: Europa, 'Helvetica Neue', helvetica;
 	line-height: 1.75rem;
 	line-height: 2rem;
 	font-weight: 300;
@@ -43,6 +43,7 @@ h3 {
 h4 {
 	font-size: 1rem;
 	text-transform: uppercase;
+	color: #aaa;
 }
 
 ::selection {
